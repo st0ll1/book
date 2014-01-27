@@ -11,6 +11,8 @@ class Person(AttrDisplay):
         self.job=job
         self.pay=pay
 
+__author__ = 'st0ll1'
+
     def __str__(self):
       return '[Person: %s, %s ]' % (self.name, self.pay) 
 
